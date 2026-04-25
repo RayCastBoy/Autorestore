@@ -1,1 +1,14 @@
-There gonna be some build release info
+main logic contains
+    main.py file programm startup point
+    exceptions.py discribe all custom app exceptions
+
+
+dumper logic consist of two modules:
+    investigator.py - helps to find all dependences for DB restore, save them into file(?)
+    pgdumper.py     - call a pg_dump utility to restore DB with required params
+
+
+logmaster.py log program and utility progress into logfile
+
+
+rolemaster.py helps to administrate roles on server

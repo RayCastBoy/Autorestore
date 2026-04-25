@@ -1,0 +1,18 @@
+main py
+check all packages installed
+if NOT installed show message:
+    <Check installed packages in venv>
+    <Package $package_name is not installed>
+    <cd to $datapath, use cmd "source venv/bin/activate", than pip install -r requirements.txt>
+    <after installation use command "deactivate" to turn off venv>
+Console output:
+prog info
+<Autorestore ver $vernum>
+startup info (if programm started not under postgres user):
+    <This application must be run by the user "postgres">
+    <Switch user and try to start it again>
+user select what he wanna do (list options, "back" button is available)
+<Make a logical database(s) dump(s)>
+<Restore a logical database(s) dump(s)>
+<Configure role(s) on server>
+<Exit programm>
